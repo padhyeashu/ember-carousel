@@ -1,5 +1,5 @@
 import Component from '@ember/component';
-import layout from '../templates/components/ember-carousel';
+import layout from '../templates/components/textual-carousel-circular-numbers';
 import {set} from '@ember/object';
 
 export default Component.extend({
@@ -17,3 +17,4 @@ export default Component.extend({
 		}
 	}
 });
+

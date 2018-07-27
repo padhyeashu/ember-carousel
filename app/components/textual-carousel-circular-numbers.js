@@ -1,0 +1,1 @@
+export { default } from 'ember-carousel/components/textual-carousel-circular-numbers';
