@@ -1,0 +1,41 @@
+<div class="carousel">
+	<div class="title">Carousel with Circle</div>
+	<div class="carousel-content">
+		{{#each textualSlider as |slide|}}
+			<h3 class="carousel-item {{if slide.active 'active'}}">{{slide.data}}</h3>
+		{{/each}}
+	</div>
+	<ol class="carousel-nav">
+		{{#each textualSlider as |button index|}}
+			<li class={{if button.active "active"}} {{action 'slideContent' index}}></li>
+		{{/each}}
+	</ol>
+</div>
+<div class="carousel">
+	<div class="title">Carousel with numbers in circle</div>
+	<div class="carousel-content">
+		{{#each textualSlider as |slide|}}
+			<h3 class="carousel-item {{if slide.active 'active'}}">{{slide.data}}</h3>
+		{{/each}}
+	</div>
+	<ol class="carousel-nav nav-with-numbers">
+		{{#each textualSlider as |button index|}}
+			<li class={{if button.active "active"}} {{action 'slideContent' index}}>{{button.value}}</li>
+		{{/each}}
+	</ol>
+</div>
+<div class="carousel">
+	<div class="title">Carousel with numbers</div>
+	<div class="carousel-content">
+		{{#each textualSlider as |slide|}}
+			<h3 class="carousel-item {{if slide.active 'active'}}">{{slide.data}}</h3>
+		{{/each}}
+	</div>
+	<ol class="carousel-nav nav-without-circle">
+		{{#each textualSlider as |button index|}}
+			<li class={{if button.active "active"}} {{action 'slideContent' index}}>{{button.value}}</li>
+		{{/each}}
+	</ol>
+</div>
+
+{{yield}}

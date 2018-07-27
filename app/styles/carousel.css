@@ -1,0 +1,88 @@
+.carousel {
+  position: relative;
+  width:600px;
+  height:300px;
+  margin: 0 auto;
+}
+.carousel .title {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.05px;
+  line-height: 28px;
+}
+.carousel-content{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.carousel-content .carousel-item {
+      display: none;
+      position: relative;
+      transition: 0.6s ease-in-out left;
+      -webkit-transition: 0.6s ease-in-out left;
+      -moz-transition: 0.6s ease-in-out left;
+      -ms-transition: 0.6s ease-in-out left;
+      -o-transition: 0.6s ease-in-out left;
+  }
+.carousel-content .carousel-item.active {
+    display: block;
+    left: 0;
+}
+.carousel-nav {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  margin-left: -30%;
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+}
+li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    border: 1px solid #005eb3;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: rgba(0, 0, 0, 0);
+}
+li.active {
+  margin: 0;
+  width: 12px;
+  height: 12px;
+  background-color: #005eb3;
+}
+.nav-with-numbers li {
+  width: 23px;
+  height: 23px;
+  margin: 1px;
+  text-indent: 0;
+  line-height: 1.4em;
+}
+.nav-with-numbers li.active {
+  width: 23px;
+  height: 23px;
+  color: #ffffff;
+}
+.nav-without-circle li {
+  width: 23px;
+  height: 23px;
+  margin: 1px;
+  text-indent: 0;
+  border:none;
+  border-radius: 0;
+  background-color: none;
+  line-height: 1.4em;
+}
+.nav-without-circle li.active {
+    width: 23px;
+    height: 23px;
+    color: #ffffff;
+    background-color: #ffffff;
+    color: #005eb3;
+}
