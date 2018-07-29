@@ -1,19 +1,17 @@
 import Component from '@ember/component';
 import layout from '../templates/components/textual-carousel';
-import {set} from '@ember/object';
+import { inject } from '@ember/service';
+
 
 export default Component.extend({
-  layout,
+	layout,
+	slider: inject('slide-content'),
   init(){
     this._super(...arguments);
-  },
+	},
 	actions: {
-    slideContent(currentIndex) {
-			this.get('textualSlider').forEach((button) => {
-				set(button, 'active', false);
-			});
-			let obj = this.textualSlider[currentIndex];
-			set(obj, 'active', true);
+		slideContent(currentIndex) {
+			this.get('slider').slideContent(this.get('textualSlider'), currentIndex);
 		}
 	}
 });

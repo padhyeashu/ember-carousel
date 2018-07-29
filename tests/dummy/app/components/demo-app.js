@@ -53,5 +53,22 @@ export default Component.extend({
                 active: false
             }
         ]);
+        this.set('imageSlider', [
+            {
+                path: 'assets/images/image.jpg',
+                value: 1,
+                active: true
+            },
+            {
+                path: 'assets/images/image1.jpg',
+                value: 2,
+                active: false
+            },
+            {
+                path: 'assets/images/image3.jpg',
+                value: 3,
+                active: false
+            }
+        ]);
     }
 });
