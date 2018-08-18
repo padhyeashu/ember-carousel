@@ -1,8 +1,8 @@
-.main-container {
-    width: 800px;
-    margin: 0 auto;
-    min-height: 700px;
-    padding: 20px;
-    border: 1px solid #000000;
-    border-radius: 10px;
+body {
+  background: linear-gradient(to bottom, rgba(169,3,41,1) 0%,rgba(143,2,34,1) 44%,rgba(109,0,25,1) 100%);
 }
+.carousel-example{
+    width: 850px;
+    margin: auto;
+    margin-top: 20px;
+  }

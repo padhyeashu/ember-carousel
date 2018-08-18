@@ -2,7 +2,10 @@
 	<div class="title">Carousel with numbers in circle</div>
 	<div class="carousel-content">
 		{{#each textualSlider as |slide|}}
-			<h3 class="carousel-item {{if slide.active 'active'}}">{{slide.data}}</h3>
+			<div class="carousel-item {{if slide.active 'active'}}">
+				<h3>{{slide.title}}</h3>
+				<p>{{slide.data}}</p>
+			</div>
 		{{/each}}
 	</div>
 	<ol class="carousel-nav nav-with-numbers">

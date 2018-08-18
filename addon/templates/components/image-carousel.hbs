@@ -1,16 +1,16 @@
-<div class="carousel">
-	<div class="title">Image Carousel with Circle</div>
-	<div class="carousel-content">
-		{{#each imageSlider as |slide|}}
-			<div class="carousel-item {{if slide.active 'active'}}">
-                <img src={{slide.path}} alt="image">
-            </div>
-		{{/each}}
-	</div>
-	<ol class="carousel-nav">
-		{{#each imageSlider as |button index|}}
-			<li class={{if button.active "active"}} {{action 'slideContent' index}}></li>
-		{{/each}}
-	</ol>
+<div class="title">Image Carousel with Circle</div>
+<div class="carousel-content">
+	{{#each imageSlider as |slide|}}
+		<div class="carousel-item {{if slide.active 'active'}}">
+			<img src={{slide.path}} alt="image">
+		</div>
+	{{/each}}
 </div>
+<div class="arrow arrow-left"></div>
+<div class="arrow arrow-right"></div>
+<ol class="carousel-nav">
+	{{#each imageSlider as |button index|}}
+		<li class={{if button.active "active"}} {{action 'slideContent' index}}></li>
+	{{/each}}
+</ol>
 {{yield}}
