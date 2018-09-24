@@ -74,7 +74,7 @@ export default Component.extend({
                 active: false
             },
             {
-                path: 'assets/images/image3.jpg',
+                path: 'assets/images/image4.jpg',
                 value: 3,
                 active: false
             }
