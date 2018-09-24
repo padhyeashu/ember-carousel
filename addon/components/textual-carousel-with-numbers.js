@@ -9,9 +9,14 @@ export default Component.extend({
     this._super(...arguments);
 	},
 	actions: {
+		previousSlide(){
+			this.get('slider').previousSlide(this.get('textualSlider'));
+		},
+		nextSlide() {
+			this.get('slider').nextSlide(this.get('textualSlider'));
+		},
 		slideContent(currentIndex) {
 			this.get('slider').slideContent(this.get('textualSlider'), currentIndex);
 		}
 	}
 });
-

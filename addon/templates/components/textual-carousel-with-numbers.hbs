@@ -1,4 +1,4 @@
-<div class="carousel">
+<div class="carousel textual">
 	<div class="title">Carousel with numbers</div>
 	<div class="carousel-content">
 		{{#each textualSlider as |slide|}}
@@ -8,6 +8,8 @@
 			</div>
 		{{/each}}
 	</div>
+	<div class="arrow arrow-left" {{action 'previousSlide'}}></div>
+	<div class="arrow arrow-right" {{action 'nextSlide'}}></div>
 	<ol class="carousel-nav nav-without-circle">
 		{{#each textualSlider as |button index|}}
 			<li class={{if button.active "active"}} {{action 'slideContent' index}}>{{button.value}}</li>

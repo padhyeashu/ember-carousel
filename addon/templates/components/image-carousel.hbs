@@ -1,13 +1,13 @@
 <div class="title">Image Carousel with Circle</div>
-<div class="carousel-content">
-	{{#each imageSlider as |slide|}}
-		<div class="carousel-item {{if slide.active 'active'}}">
+<div class="carousel-content image-carousel-content">
+	{{#each imageSlider as |slide index|}}
+		<div class="carousel-item {{if slide.active 'active'}} {{if (and (not slide.active) slide.previous) 'previous' 'next'}}">
 			<img src={{slide.path}} alt="image">
 		</div>
 	{{/each}}
 </div>
-<div class="arrow arrow-left"></div>
-<div class="arrow arrow-right"></div>
+<div class="arrow arrow-left" {{action 'previousSlide'}}></div>
+<div class="arrow arrow-right" {{action 'nextSlide'}}></div>
 <ol class="carousel-nav">
 	{{#each imageSlider as |button index|}}
 		<li class={{if button.active "active"}} {{action 'slideContent' index}}></li>
