@@ -17,7 +17,7 @@ Ember Carousel is a carousel component written in ember with a focus to use caro
 
 ## Usage
 * Image Carousel
-    template:
+*  template:
   ```hbs
   {{image-carousel
   	imageSlider=imageSlider
@@ -25,8 +25,8 @@ Ember Carousel is a carousel component written in ember with a focus to use caro
   }}
   ```
   Create array of objects with path, value & active properties as given in below example for image carousel.
-  component:
-  ``` js
+*  component:
+  ```js
   this.set('imageSlider', [
       {
           path: 'assets/images/image.jpg',
