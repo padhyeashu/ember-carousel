@@ -1,11 +1,12 @@
 {
   "name": "ember-carousel",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
     "Carousel",
     "image slider",
     "slider",
+    "text slider",
     "ember-addon"
   ],
   "license": "MIT",
