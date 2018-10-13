@@ -1,12 +1,10 @@
-# ember-carousel
+# ember-simpliefied-carousel
 
 Ember Carousel is a carousel component written in ember with a focus to use carousel or slider functionality flexibly, easily and with less amount of code.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-carousel`
-* `npm install`
+* ember install ember-simpliefied-carousel
 
 ## Features overview
 * Image Carousel.
