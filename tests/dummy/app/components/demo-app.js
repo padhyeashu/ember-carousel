@@ -5,19 +5,19 @@ export default Component.extend({
         this.set('textualSlider', [
             {
                 title: 'Carousel title 1',
-                data: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+                data: 'This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content.',
                 value: 1,
                 active: true
             },
             {
                 title: 'Carousel title 2',
-                data: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+                data: 'This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content.',
                 value: 2,
                 active: false
             },
             {
                 title: 'Carousel title 3',
-                data: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+                data: 'This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content.',
                 value: 3,
                 active: false
             }
@@ -25,19 +25,19 @@ export default Component.extend({
         this.set('textualSlider1', [
             {
                 title: 'Carousel title 1',
-                data: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+                data: 'This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content.',
                 value: 1,
                 active: true
             },
             {
                 title: 'Carousel title 2',
-                data: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+                data: 'This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content.',
                 value: 2,
                 active: false
             },
             {
                 title: 'Carousel title 3',
-                data: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+                data: 'This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content.',
                 value: 3,
                 active: false
             }
@@ -45,19 +45,19 @@ export default Component.extend({
         this.set('textualSlider2', [
             {
                 title: 'Carousel title 1',
-                data: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+                data: 'This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content.',
                 value: 1,
                 active: true
             },
             {
                 title: 'Carousel title 2',
-                data: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+                data: 'This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content.',
                 value: 2,
                 active: false
             },
             {
                 title: 'Carousel title 3',
-                data: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+                data: 'This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content.',
                 value: 3,
                 active: false
             }

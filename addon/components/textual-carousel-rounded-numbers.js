@@ -1,5 +1,5 @@
 import Component from '@ember/component';
-import layout from '../templates/components/textual-carousel-circular-numbers';
+import layout from '../templates/components/textual-carousel-rounded-numbers';
 import { inject } from '@ember/service';
 
 export default Component.extend({
