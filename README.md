@@ -26,7 +26,7 @@ Ember Carousel is a carousel component written in ember with a focus to use caro
   ```
   Create array of objects with path, value & active properties as given in below example for image carousel.
 *  component:
-  ```js
+```js
   this.set('imageSlider', [
       {
           path: 'assets/images/image.jpg',
@@ -71,9 +71,9 @@ Ember Carousel is a carousel component written in ember with a focus to use caro
   }}
   ```
 Create array of objects with title, data, value & active properties as given in below example for Textual carousel, Textual Carousel with rounded numbers and numbers.  
-    component:
-    ```js
-    this.set('textualSlider', [
+*  component:
+  ```js
+  this.set('textualSlider', [
         {
             title: 'Carousel title 1',
             data: 'This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content.',
