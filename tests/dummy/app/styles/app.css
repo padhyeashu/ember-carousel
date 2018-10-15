@@ -3,3 +3,6 @@
     margin: auto;
     margin-top: 20px;
   }
+.carousel-example > .carousel{
+  margin-bottom: 15px;
+}
