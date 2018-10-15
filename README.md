@@ -1,10 +1,10 @@
-# ember-simpliefied-carousel
+# ember-simplified-carousel
 
-Ember Carousel is a carousel component written in ember with a focus to use carousel or slider functionality flexibly, easily and with less amount of code.
+Ember Simplified Carousel is a carousel component written in ember with a focus to use carousel or slider functionality flexibly, easily and with less amount of code.
 
 ## Installation
 
-* ember install ember-simpliefied-carousel
+* ember install ember-simplified-carousel
 
 ## Features overview
 * Image Carousel.
@@ -72,26 +72,26 @@ Create array of objects with title, data, value & active properties as given in 
 *  component:
   ```js
   this.set('textualSlider', [
-        {
-            title: 'Carousel title 1',
-            data: 'This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content.',
-            value: 1,
-            active: true
-        },
-        {
-            title: 'Carousel title 2',
-            data: 'This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content.',
-            value: 2,
-            active: false
-        },
-        {
-            title: 'Carousel title 3',
-            data: 'This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content.',
-            value: 3,
-            active: false
-        }
-    ]);
-    ```
+    {
+        title: 'Carousel title 1',
+        data: 'This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content.',
+        value: 1,
+        active: true
+    },
+    {
+        title: 'Carousel title 2',
+        data: 'This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content.',
+        value: 2,
+        active: false
+    },
+    {
+        title: 'Carousel title 3',
+        data: 'This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content. This is demo content.',
+        value: 3,
+        active: false
+    }
+]);
+```
 
 ## Running
 
